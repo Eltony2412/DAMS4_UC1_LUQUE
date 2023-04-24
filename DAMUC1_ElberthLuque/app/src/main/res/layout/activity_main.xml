@@ -107,13 +107,18 @@
             android:id="@+id/radioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="MASCULINO" />
+            android:backgroundTint="#0162AF"
+            android:text="MASCULINO"
+            android:textColorHighlight="#0162AF" />
 
         <RadioButton
             android:id="@+id/radioButton2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="FEMENINO" />
+            android:backgroundTint="#0162AF"
+            android:text="FEMENINO"
+            android:textColorHighlight="#0162AF"
+            android:textColorLink="#0162AF" />
     </RadioGroup>
 
     <TextView
@@ -133,6 +138,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
+        android:backgroundTint="#0162AF"
         android:ems="10"
         android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="@+id/textView29"
@@ -143,6 +149,7 @@
         android:id="@+id/editTextTextPassword2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#0162AF"
         android:ems="10"
         android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="@+id/textView28"
@@ -153,6 +160,7 @@
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#0162AF"
         android:ems="10"
         android:inputType="textEmailAddress"
         android:maxLength="05"
@@ -164,6 +172,7 @@
         android:id="@+id/editTextTextPersonName2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#0162AF"
         android:ems="10"
         android:inputType="textPersonName"
         android:maxLength="30"
@@ -175,6 +184,7 @@
         android:id="@+id/editTextTextPersonName3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#0162AF"
         android:ems="10"
         android:inputType="textPersonName"
         android:maxLength="30"
@@ -186,6 +196,7 @@
         android:id="@+id/editTextPhone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#0162AF"
         android:ems="10"
         android:inputType="phone"
         app:layout_constraintBottom_toBottomOf="@+id/textView30"
@@ -211,7 +222,8 @@
         android:layout_marginStart="138dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="136dp"
-        android:background="#2196F3"
+        android:background="@color/purple_500"
+        android:backgroundTint="#0162AF"
         android:text="REGISTRARSE"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
