@@ -163,7 +163,7 @@
         android:backgroundTint="#0162AF"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:maxLength="05"
+        android:maxLength="50"
         app:layout_constraintBottom_toBottomOf="@+id/textView27"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPassword2"
         app:layout_constraintTop_toTopOf="@+id/textView27" />
